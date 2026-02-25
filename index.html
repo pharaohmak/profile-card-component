@@ -4,40 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <title>Frontend Mentor | Profile card component</title>
 
   <link rel="stylesheet" href="./styles.css">
-
 </head>
 
 <body>
-  <main>
-    <header>
-      <img src="./images/image-victor.jpg" alt="">
-    </header>
-    <section>
-      <p>Victor Crest <span>26</span></p>
-      <p>London</p>
-    </section>
-    <hr>
-    <footer>
-      <div>
-        <p>80K</p>
-        <p>Followers</p>
-      </div>
-      <div>
-        <p>803K</p>
-        <p>Likes</p>
-      </div>
-      <div>
-        <p>1.4K</p>
-        <p>Photos</p>
-      </div>
-    </footer>
+  <main class="container">
+    <div class="card">
+      <header>
+        <img src="./images/bg-pattern-card.svg" alt="">
+      </header>
+      <section class="profile">
+        <img src="./images/image-victor.jpg" alt="">
+        <p>Victor Crest <span>26</span></p>
+        <p>London</p>
+      </section>
+      <hr>
+      <footer>
+        <div class="followers">
+          <p>80K</p>
+          <p>Followers</p>
+        </div>
+        <div class="likes">
+          <p>803K</p>
+          <p>Likes</p>
+        </div>
+        <div class="photos">
+          <p>1.4K</p>
+          <p>Photos</p>
+        </div>
+      </footer>
+    </div>
   </main>
 
 </body>
